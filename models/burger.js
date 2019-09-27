@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 // sequelize (lowercase) references our connection to the DB.
-const sequelize = require("./config/connection.js");
+const sequelize = require("../config/connection");
 
 // Creates a "Burger" model that matches up with DB
 const Burger = sequelize.define("burger", {
